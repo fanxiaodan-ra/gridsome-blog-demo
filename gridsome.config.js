@@ -8,18 +8,18 @@ module.exports = {
   siteName: 'Gridsome',
   plugins: [],
   templates: {
-    // Followers: [
-    //   {
-    //     path: '/details/:id',
-    //     component: './src/templates/Details.vue'
-    //   }
-    // ],
-    // Following: [
-    //   {
-    //     path: '/details/:id',
-    //     component: './src/templates/Details.vue'
-    //   }
-    // ]
+    Followers: [
+      {
+        path: '/details/:id',
+        component: './src/templates/Details.vue'
+      }
+    ],
+    Following: [
+      {
+        path: '/details/:id',
+        component: './src/templates/Details.vue'
+      }
+    ]
     Articles: [
       {
         name: 'article',
