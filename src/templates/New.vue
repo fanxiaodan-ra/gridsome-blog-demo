@@ -62,7 +62,7 @@ export default {
       return {
         id: node.id,
         title: node.title,
-        content: this.$markdown(node.content),
+        content: node.content,
         // content: node.content,
         description: node.description,
         createTime: this.$util.utcToLocal(node.createTime),

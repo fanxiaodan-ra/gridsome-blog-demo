@@ -26,11 +26,11 @@ module.exports = {
         path: '/article/:id',
         component: './src/templates/Article.vue'
       },
-      {
-        name: 'edit',
-        path: '/edit/:id',
-        component: './src/templates/Edit.vue'
-      }
+      // {
+      //   name: 'edit',
+      //   path: '/edit/:id',
+      //   component: './src/templates/Edit.vue'
+      // }
     ],
     Projects: [
       {

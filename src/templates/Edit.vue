@@ -118,7 +118,7 @@ query ($id: ID) {
               this.loading = false
             },
             imgAdd(pos, file) {
-                this.$refs.md.$img2Url(pos, file.miniurl)
+                // this.$refs.md.$img2Url(pos, file.miniurl)
             },
             onSubmit() {
                 if (this.token) {
