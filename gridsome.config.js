@@ -19,7 +19,7 @@ module.exports = {
         path: '/details/:id',
         component: './src/templates/Details.vue'
       }
-    ]
+    ],
     Articles: [
       {
         name: 'article',
